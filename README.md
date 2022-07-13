@@ -52,7 +52,6 @@ npm run start.dev
 
 ## 前端项目运行
 
-**注意：**由于项目涉及到 **ES6** 新特性，node 需要 6.0 以上版本 （本人用的是13.14.0）
 
 ```
 git clone https://https://github.com/liangtiao4/vue3-zhiye.git
@@ -66,51 +65,9 @@ npm run serve (运行项目)
 App running at: http://localhost:8080/
 ```
 
-## 关于接口数据
 
-此项目的所有数据都是通过zheyi-api接口获取，[接口传送地址](https://github.com/liangtiao4/zhiye-api.git)。
 
-启动该项目的命令为：`npm run start.dev` 。
-
-## 部分截图
-
-**登录页**
-
-![login](https://github.com/liangtiao4/vue3-zhiye/blob/main/effectDiagram/1.login.png)
-
-**首页**
-
-![home-login](https://github.com/liangtiao4/vue3-zhiye/blob/main/effectDiagram/2.home-login.png)
-
-![home-logout](https://github.com/liangtiao4/vue3-zhiye/blob/main/effectDiagram/3.home-logout.png)
-
-**专栏**
-
-![column](https://github.com/liangtiao4/vue3-zhiye/blob/main/effectDiagram/4.column.png)
-
-![column-detail](https://github.com/liangtiao4/vue3-zhiye/blob/main/effectDiagram/5.colum-detail.png)
-
-**文章**
-
-![post](https://github.com/liangtiao4/vue3-zhiye/blob/main/effectDiagram/6.create.png)
-
-## 目标功能
-
-- [x] 登录（退出登录）、注册 -- 完成
-- [x] 权限验证（部分页面未登录不可见、token） -- 完成
-- [x] 首页 -- 完成
-- [x] 专栏列表、专栏详情 -- 完成
-- [ ] 申请专栏 -- 未完成
-- [x] 文章列表、新建文章 -- 完成
-- [ ] 文章详情、编辑文章 -- 未完成
-- [ ] 专题 -- 未完成
-- [ ] 上传图片/文件 -- 未完成
-- [ ] 发现 -- 未完成
-- [ ] 个人中心 -- 未完成
-- [x] 加载动画 -- 完成
-- [x] 轻提示（成功、失败、警告）-- 完成
-
-## 项目布局
+## 文件结构 
 
 ```
 │  package-lock.json								// 包信息
