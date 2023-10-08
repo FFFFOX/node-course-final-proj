@@ -2,7 +2,7 @@
 
 此项目是 Vue + TypeScript + Bootstrap 仿造知乎专栏构建的（🤖）项目，它的接口[zhiye-api](https://github.com/liangtiao4/zhiye-api.git) 是用 Node.js express 框架实现的，数据从MySQL数据库获取，具有真实的登录、注册、权限验证、专栏、文章等功能。
 
-## 技术栈
+## 技术栈1
 
 Vue3 + Vuex + vue-router + ES6  + TypeScript + Bootstrap4 + express + nodemon + MySQL
 
@@ -132,4 +132,3 @@ App running at: http://localhost:8080/
             Login.vue								// 登录页
             Register.vue							// 注册页
 ```
-
